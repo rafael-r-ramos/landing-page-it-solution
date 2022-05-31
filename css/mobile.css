@@ -1,0 +1,60 @@
+.cabecalho {
+    height: 180px;
+}
+
+.cabecalho-geral {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.cabecalho-itens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;  
+}
+
+.cabecalho-itens li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+
+.clients-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.client {
+    width: 50%;
+}
+
+.features-container {
+    flex-direction: column;
+}
+
+.product-container {
+    flex-direction: column;
+}
+
+.testimonial {
+    flex-direction: column;
+}
+
+.testimonial-image {
+    padding: 10px;
+}
+
+#items {
+    width: 100%;
+}
+
+#gallery-container{
+    grid-template-columns: 1fr;
+}
+
+.gallery-image {
+    width:100% ;
+}
+    
